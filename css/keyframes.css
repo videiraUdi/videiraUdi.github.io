@@ -1,0 +1,110 @@
+@keyframes fonteMudaCor {
+    0% {
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(78, 78, 78);
+        border: 1px solid rgb(156, 156, 156);
+    }
+    25% {
+        color: rgb(141, 141, 141);
+        text-shadow: 1px 1px 2px rgb(190, 190, 190);
+        border: 1.5px solid rgb(65, 65, 65);
+    }
+    50% {
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(78, 78, 78);
+        border: 2px solid rgb(156, 156, 156);
+    }
+    75% {
+        color: rgb(141, 141, 141);
+        text-shadow: 1.px 1px 2px rgb(190, 190, 190);
+        border: 1.5px solid rgb(65, 65, 65);
+    }
+    100% {
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(78, 78, 78);
+        border: 1px solid rgb(156, 156, 156);
+    }
+}
+
+@keyframes bordaMudaCor {
+    0% {
+        border: 0.5px solid rgb(156, 156, 156);
+    }
+    25% {
+        border: 1px solid rgb(65, 65, 65);
+    }
+    50% {
+        border: 1.5px solid rgb(156, 156, 156);
+    }
+    75% {
+        border: 1px solid rgb(65, 65, 65);
+    }
+    100% {
+        border: 0.5px solid rgb(156, 156, 156);
+    }
+}
+
+@keyframes fontPiscando {
+    0% {
+        opacity: 1;
+        color: white;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        color: white;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        color: white;
+    }
+}
+
+@keyframes letterMove {
+    10% {
+        transform: translateX(3px) rotate(2deg);
+    }
+    20% {
+        transform: translateX(-3px) rotate(-2deg);
+    }
+    30% {
+        transform: translateX(3px) rotate(2deg);
+    }
+    40% {
+        transform: translateX(-3px) rotate(-2deg);
+    }
+    50% {
+        transform: translateX(2px) rotate(1deg);
+    }
+    60% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+    70% {
+        transform: translateX(2px) rotate(1deg);
+    }
+    80% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+    90% {
+        transform: translateX(1px) rotate(0);
+    }
+    100% {
+        transform: translateX(-1px) rotate(0);
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}

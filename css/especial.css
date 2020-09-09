@@ -1,0 +1,31 @@
+input[type="button"],
+[type="reset"],
+[type="submit"] {
+    width: 330px;
+    height: 70px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 77);
+    box-shadow: 2px 7px 5px #444444;
+    transition: 0.01s;
+    color: #ffffff;
+    text-shadow: 1.2px 1.2px 2px #4d4d4d;
+    background-image: linear-gradient(rgb(12, 12, 12), rgb(95, 95, 95));
+    margin: 10px;
+    animation: fonteMudaCor 5s linear infinite;
+    outline: none;
+}
+
+input[type="button"]:active,
+[type="reset"]:active,
+[type="submit"]:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    transition: 0.01s;
+    outline: none;
+    background-image: linear-gradient(rgb(12, 12, 12), rgb(41, 41, 41));
+    color: #b3b3b3;
+    font-weight: bold;
+    font-size: 14px;
+}
